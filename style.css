@@ -97,6 +97,17 @@ header .container {
     color: var(--heading-color);
 }
 
+/* --- Header Logo Image Style 0701--- */
+.logo-link {
+    display: inline-block;
+}
+
+.logo-image {
+    height: 40px; /* ロゴの高さを指定 */
+    width: auto;   /* 幅は自動で調整 */
+    vertical-align: middle; /* ボタンとの垂直方向の位置を揃える */
+}
+
 /* Hero Section */
 .hero {
     height: 90vh;
