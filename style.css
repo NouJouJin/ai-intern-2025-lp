@@ -488,6 +488,52 @@ footer {
 }
 
 
+/* --- Audio Voices Section --- */
+.voices-audio {
+    background-color: var(--surface-color);
+}
+
+.audio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+}
+
+.audio-card {
+    background-color: var(--bg-color);
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.audio-card h3 {
+    color: var(--primary-color);
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.audio-card p {
+    font-size: 0.9rem;
+    color: #b0b0b0;
+    min-height: 3.5em; /* カードの高さを揃えるための微調整 */
+    margin-bottom: 20px;
+}
+
+/* stand.fm embed style */
+.standfm-embed-iframe {
+    height: 190px;
+    border-radius: 12px; /* LPのデザインに合わせる */
+    border: none;
+    flex-grow: 1;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .standfm-embed-iframe {
+        height: 230px;
+    }
+}
+
 /* Responsive */
 @media (max-width: 1024px) {
     .custom-cursor {
