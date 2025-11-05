@@ -183,6 +183,101 @@ header .container {
     margin-top: 0;
 }
 
+/* Principles Section */
+.principles {
+    background-color: var(--surface-color);
+}
+
+.principles-list {
+    display: grid;
+    gap: 25px;
+    margin-bottom: 60px;
+}
+
+.principle-item {
+    background-color: var(--bg-color);
+    padding: 30px;
+    border-radius: 10px;
+    border-left: 5px solid var(--primary-color);
+}
+
+.principle-item h3 {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.principle-item p {
+    margin: 10px 0;
+    line-height: 1.8;
+}
+
+.principles-examples-title {
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--heading-color);
+    text-align: center;
+    margin: 60px 0 40px 0;
+    border-top: 2px solid var(--border-color);
+    padding-top: 60px;
+}
+
+.principles-examples {
+    display: grid;
+    gap: 40px;
+}
+
+.example-item {
+    background-color: var(--bg-color);
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+}
+
+.example-item h4 {
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.example-before,
+.example-after {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.example-before {
+    background-color: rgba(244, 67, 54, 0.1);
+    border-left: 3px solid #f44336;
+}
+
+.example-after {
+    background-color: rgba(76, 175, 80, 0.1);
+    border-left: 3px solid var(--primary-color);
+}
+
+.example-before strong,
+.example-after strong {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.example-before ul,
+.example-after ul {
+    margin: 10px 0 0 0;
+    padding-left: 20px;
+}
+
+.example-before li,
+.example-after li {
+    margin: 8px 0;
+    line-height: 1.7;
+}
+
 /* Outputs Section */
 .output-grid {
     display: grid;
