@@ -1,6 +1,6 @@
 # Metagri研究所 AIインターンシップ募集LP (2025)
 
-![Metagri Intern LP Key Visual](http://metagri-labo.com/wp-content/uploads/2025/06/AI-Intern-2025-LP.png)
+![Metagri Intern LP Key Visual](http://metagri-labo.com/wp-content/uploads/2025/06/ai-intern-LP.png)
 
 これは、株式会社農情人が運営する「Metagri研究所」の、2025年度インターンシップ募集用ランディングページ（LP）のリポジトリです。
 
@@ -8,7 +8,7 @@
 > AIに仕事、奪われると思う？
 > ―創造する側に、最速でなれ。
 
-農業、AI、Web3に興味を持つ高校生・大学生・大学院生をターゲットに、挑戦意欲と成長意欲を刺激し、Metagri研究所のカルチャーにフィットする熱量の高い学生からの応募を獲得することを目的としています。
+農業、AI、web3に興味を持つ高校生・大学生・大学院生をターゲットに、挑戦意欲と成長意欲を刺激し、Metagri研究所のカルチャーにフィットする熱量の高い学生からの応募を獲得することを目的としています。
 
 ---
 
@@ -16,7 +16,7 @@
 
 以下のURLから、完成したLPを閲覧できます。
 
-**[https://ai-intern-2025.metagri-labo.com/](https://ai-intern-2025.metagri-labo.com/)**
+**[https://ai-intern.metagri-labo.com/](https://ai-intern.metagri-labo.com/)**
 
 ---
 
