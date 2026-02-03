@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nMerge remote-tracking branch ''origin/main''\n\n- フッターを2026年に更新、ロゴを追加\n- インターン生の声を更新（さえり、小林、りつと）\n- 音声インタビューURLを更新\n- FAQを4項目→10項目に拡充\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}
