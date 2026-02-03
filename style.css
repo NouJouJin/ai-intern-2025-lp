@@ -188,6 +188,17 @@ header .container {
     background-color: var(--surface-color);
 }
 
+.principles-hero-image {
+    display: block;
+    max-width: 100%;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+    margin: 0 auto 50px auto;
+    border-radius: 15px;
+    object-fit: contain;
+}
+
 .principles-list {
     display: grid;
     gap: 25px;
@@ -325,7 +336,7 @@ header .container {
 /* Voices Section */
 .voice-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
 }
 .voice-card {
@@ -651,13 +662,64 @@ footer {
         display: none;
     }
 }
+
 @media (max-width: 768px) {
     .section-title { font-size: 2rem; }
     .hero-title { font-size: 2.8rem; }
     .hero-subtitle { font-size: 1.8rem; }
+    .hero-description { font-size: 1rem; }
     .feedback-container { flex-direction: column; }
     .feedback-box { width: 100%; }
     .voice-grid { grid-template-columns: 1fr; }
+    .problem-list { grid-template-columns: 1fr; }
+    .strength-grid { grid-template-columns: 1fr; }
+    .output-grid { grid-template-columns: 1fr; }
+    .audio-grid { grid-template-columns: 1fr; }
+    .req-grid { grid-template-columns: 1fr; }
+    .btn-large { padding: 16px 32px; font-size: 1rem; }
+    .cta-title { font-size: 1.5rem; }
+
+    /* スマホ用KV背景画像 */
+    .hero {
+        background-image: linear-gradient(rgba(18, 18, 18, 0.6), rgba(18, 18, 18, 0.85)), url('https://metagri-labo.com/wp-content/uploads/2026/01/351277dc4679993a9f5b85f8408bedfc-3.png') !important;
+        background-position: center top;
+    }
+}
+
+/* スマホ専用（480px以下） */
+@media (max-width: 480px) {
+    .section { padding: 50px 0; }
+    .section-title { font-size: 1.6rem; }
+    .section-description { font-size: 1rem; margin-bottom: 40px; }
+    .hero { height: 100vh; }
+    .hero-title { font-size: 2rem; }
+    .hero-subtitle { font-size: 1.4rem; }
+    .hero-description { font-size: 0.95rem; margin-bottom: 30px; }
+    .container { padding: 0 15px; }
+    .problem-item { padding: 20px; font-size: 1rem; }
+    .strength-card { padding: 20px; }
+    .principle-item { padding: 20px; }
+    .principle-item h3 { font-size: 1.2rem; }
+    .example-item { padding: 20px; }
+    .example-before, .example-after { padding: 15px; }
+    .output-card .card-content { padding: 20px; }
+    .voice-card { padding: 20px; }
+    .voice-card blockquote { font-size: 1rem; }
+    .audio-card { padding: 20px; }
+    .feedback-box { padding: 20px; }
+    .req-item { padding: 20px; }
+    .faq-item { padding: 15px; }
+    .faq-item h3 { font-size: 1rem; }
+    .cta-title { font-size: 1.3rem; }
+    .btn { padding: 14px 24px; font-size: 0.95rem; }
+    .btn-large { padding: 16px 28px; font-size: 1rem; }
+    header .container { flex-direction: column; gap: 15px; }
+    .logo-image { height: 35px; }
+
+    /* 五原則画像 */
+    .principles-hero-image {
+        max-height: 400px;
+    }
 }
 
 @keyframes fadeIn {
